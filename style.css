@@ -1,19 +1,55 @@
 html{
-    background-color: rgb(173, 172, 172);
+    background-color: rgb(255, 255, 255);
 }
 body{
     color: rgb(0, 0, 0);
 }
-h1{
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+}
+
+nav > a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 800;
+    font-size: 32px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(28, 48, 161);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10p 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h1.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(97, 9, 109);
     text-align: center;
     font-weight: bold;
     font-size: 2em;
 }
 
 .footer{
-    background-color: gold;
+    background-color: rgb(255, 213, 0);
     text-align: center;
     padding: 3px;
 }
