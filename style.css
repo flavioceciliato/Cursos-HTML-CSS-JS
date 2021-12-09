@@ -1,9 +1,12 @@
+html{
+    background-color: rgb(173, 172, 172);
+}
 body{
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
+    color: rgb(28, 48, 161);
     text-align: center;
     font-weight: bold;
     font-size: 2em;
